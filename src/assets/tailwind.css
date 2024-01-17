@@ -1,0 +1,18 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+@font-face {
+    font-family: 'averta';
+    src: url('./fonts/AvertaDemoPECuttedDemo-Regular.ttf') format('truetype');
+}
+@font-face{
+    font-family: 'nova';
+    src: url('./fonts/Proxima-Nova-Extrabold.ttf') format('truetype');
+}
+
+body {
+    font-family: 'averta', sans-serif;
+}
