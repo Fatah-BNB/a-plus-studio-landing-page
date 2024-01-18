@@ -20,8 +20,7 @@
                 :autoplay="{ delay: 3000, disableOnInteraction: false }">
                 <swiper-slide v-for="(feedback, indexe) in feedbacks" :key="indexe">
                     <div class="flex flex-col justify-between items-center">
-                        <img :src="feedback.picture" :alt="feedback.name"
-                            class="rounded-full shadow-xl w-1/2">
+                        <img :src="feedback.picture" :alt="feedback.name" class="rounded-full shadow-xl w-1/2">
                         <div class="flex flex-col space-y-10 justify-center items-center my-10">
                             <h1 class="font-bold text-2xl">{{ feedback.name }}</h1>
                             <p class="text-center">{{ feedback.comment }}</p>

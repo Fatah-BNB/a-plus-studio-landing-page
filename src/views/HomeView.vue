@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div class="home animate-fadeUp">
 
     <Header />
 
@@ -39,7 +39,7 @@
           development expertise. We build readymade websites, mobile applications, and elaborate online business
           services.</P>
         <button
-          class="w-fit text-white font-bold sm:text-xl px-10 py-5 bg-[#2539EC] rounded-full justify-center items-center">Contact
+          class="hover:bg-white hover:text-[#2539EC] hover:border hover:border-[rgba(0, 0, 0, 0.5)] transition-all w-fit text-white font-bold sm:text-xl px-10 py-5 bg-[#2539EC] rounded-full justify-center items-center">Contact
           Now</button>
       </div>
 
@@ -137,8 +137,7 @@
     </div>
 
     <div class="flex flex-col justify-center my-40">
-      <h1
-        class="text-black text-center text-[2rem] lg:text-[2rem] sm:text-[3rem] font-extrabold tracking-tight">
+      <h1 class="text-black text-center text-[2rem] lg:text-[2rem] sm:text-[3rem] font-extrabold tracking-tight">
         What our happy client say</h1>
       <p class="text-base text-center text-neutral-600 lg:text-[1rem]">Several selected clients, who already
         believe in our service.</p>
