@@ -3,8 +3,8 @@
         <div class="w-[85%] hidden lg:block">
             <swiper :slides-per-view="1" :space-between="30" :loop="true" :pagination="true" :navigation="true"
                 :autoplay="{ delay: 3000, disableOnInteraction: false }">
-                <swiper-slide v-for="(feedback, indexe) in feedbacks" :key="indexe">
-                    <div class="flex flex-row justify-between items-center space-x-20">
+                <swiper-slide v-for="(feedback, index) in feedbacks" :key="index">
+                    <div class="flex flex-row justify-between items-center space-x-20 relative">
                         <img :src="feedback.picture" :alt="feedback.name"
                             class="rounded-l-full rounded-br-full shadow-xl w-1/2">
                         <div class="flex flex-col space-y-10 w-3/4 mb-40">

@@ -7,7 +7,7 @@
       </div>
       <nav id="nav-options relative my-10">
         <ul
-          :class="{ 'translate-x-0 translate-y-[30%]': menuToggle, '-translate-x-[100%] translate-y-[30%] md:translate-y-0': !menuToggle, }"
+          :class="{ 'translate-x-0 translate-y-[30%]': menuToggle, 'translate-x-[100%] translate-y-[30%] md:translate-y-0': !menuToggle, }"
           class="bg-white left-0 md:translate-x-0 flex md:flex-row 2xl:space-x-24 lg:space-x-16 md:space-x-10 md:h-full z-10 md:static absolute flex-col w-full items-center space-y-6 md:space-y-0 transition-transform duration-300 ease-in-out">
           <li v-for="route in routes" :key="route.name" @click="toggleMenu"
             class="hover:bg-black hover:text-white transition-all text-base font-extrabold flex md:items-center">
@@ -16,8 +16,8 @@
         </ul>
       </nav>
       <div class="md:hidden w-16 self-center cursor-pointer" @click="toggleMenu">
-        <img src="./../assets/hamburger-menu.svg" alt="menu" :class="{ 'hidden': menuToggle }">
-        <img src="./../assets/close.svg" alt="close" :class="{ 'hidden': !menuToggle }">
+        <img src="./../assets/menu.svg" alt="menu" :class="{ 'hidden': menuToggle }" class="w-[50%]">
+        <img src="./../assets/close.svg" alt="close" :class="{ 'hidden': !menuToggle }" class="w-[50%]">
       </div>
     </header>
   </div>

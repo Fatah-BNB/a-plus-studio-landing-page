@@ -145,11 +145,13 @@
     <ClientsSection />
 
     <div class="my-48 flex flex-col justify-center items-center">
-      <img src="./../assets/Newsletter.png" alt="newsletter" class="w-3/4">
+      <img src="./../assets/Newsletter.png" alt="newsletter" class="w-[90%]">
     </div>
 
+
+
     <div class="flex flex-col justify-center items-center">
-      <img src="./../assets/Footer.png" alt="footer" class="w-3/4">
+      <img src="./../assets/Footer.png" alt="footer" class="w-[80%]">
     </div>
 
 
