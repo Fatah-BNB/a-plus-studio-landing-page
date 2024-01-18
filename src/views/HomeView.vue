@@ -62,7 +62,7 @@
     </div>
 
 
-    <div id="services" class="flex lg:flex-row w-full justify-center items-center my-48 2xl:my-96 flex-col relative">
+    <div id="services" class="flex lg:flex-row w-full justify-center items-center my-48 flex-col relative">
       <img src="./../assets/Big_Rectangle.svg" alt="rectangle"
         class="xl:rounded-tl-[150px] -z-10 absolute 2xl:w-[72%] xl:w-[70%] 2xl:top-32 right-0 hidden xl:block">
       <img src="./../assets/services_dots.svg" alt="dots"
@@ -136,6 +136,24 @@
       </div>
     </div>
 
+    <div class="flex flex-col justify-center my-40">
+      <h1
+        class="text-black text-center text-[2rem] lg:text-[2rem] sm:text-[3rem] font-extrabold tracking-tight">
+        What our happy client say</h1>
+      <p class="text-base text-center text-neutral-600 lg:text-[1rem]">Several selected clients, who already
+        believe in our service.</p>
+    </div>
+    <ClientsSection />
+
+    <div class="my-48 flex flex-col justify-center items-center">
+      <img src="./../assets/Newsletter.png" alt="newsletter" class="w-3/4">
+    </div>
+
+    <div class="flex flex-col justify-center items-center">
+      <img src="./../assets/Footer.png" alt="footer" class="w-3/4">
+    </div>
+
+
   </div>
 </template>
 
@@ -149,6 +167,7 @@ import emptyWallet from "./../assets/empty_wallet.svg"
 import searchBox from "./../assets/box_search.svg"
 import chartSquare from "./../assets/chart_square.svg"
 import code from "./../assets/code.svg"
+import ClientsSection from "@/components/ClientsSection.vue"
 export default {
   name: "HomeView",
   data: () => ({
@@ -167,6 +186,7 @@ export default {
   }),
   components: {
     Header,
+    ClientsSection
   },
   mounted() {
     document.title = "A+ Studio"
