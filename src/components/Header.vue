@@ -9,7 +9,8 @@
         <ul
           :class="{ 'translate-x-0 translate-y-[30%]': menuToggle, '-translate-x-[100%] translate-y-[30%] md:translate-y-0': !menuToggle, }"
           class="bg-white left-0 md:translate-x-0 flex md:flex-row 2xl:space-x-24 lg:space-x-16 md:space-x-10 md:h-full z-10 md:static absolute flex-col w-full items-center space-y-6 md:space-y-0 transition-transform duration-300 ease-in-out">
-          <li v-for="route in routes" :key="route.name" @click="toggleMenu" class="text-base font-extrabold flex md:items-center">
+          <li v-for="route in routes" :key="route.name" @click="toggleMenu"
+            class="text-base font-extrabold flex md:items-center">
             <router-link :to="route.path">{{ route.name }}</router-link>
           </li>
         </ul>
