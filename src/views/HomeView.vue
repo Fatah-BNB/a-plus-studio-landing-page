@@ -62,7 +62,7 @@
     </div>
 
 
-    <div id="services" class="flex lg:flex-row w-full justify-center items-center my-48 flex-col relative">
+    <div id="services" class="flex lg:flex-row w-full justify-center items-center my-48 2xl:my-96 flex-col relative">
       <img src="./../assets/Big_Rectangle.svg" alt="rectangle"
         class="xl:rounded-tl-[150px] -z-10 absolute 2xl:w-[72%] xl:w-[70%] 2xl:top-32 right-0 hidden xl:block">
       <img src="./../assets/services_dots.svg" alt="dots"
@@ -107,6 +107,31 @@
               <p class="w-[80%] text-center text-neutral-600">{{ service.desc }}</p>
             </div>
           </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="about-us" class="flex lg:flex-row w-full justify-center items-center my-48 flex-col">
+      <div class="w-[85%] flex flex-col lg:flex-row justify-center items-center lg:space-x-24">
+        <div class="relative xl:w-1/2 lg:w-[65%]">
+          <img src="./../assets/about_us_img.png" alt="about-us-img" class="rounded-[32px] shadow-2xl">
+          <img src="./../assets/about_us_Ellipse.svg" alt="ellipse"
+            class="absolute right-0 bottom-0 -z-10 lg:translate-y-10 lg:translate-x-10 hidden lg:block">
+          <img src="./../assets/play_button.svg" alt="play"
+            class="absolute z-10 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%]">
+        </div>
+        <div id="about-us_content" class="relative flex flex-col 2xl:space-y-14 space-y-8 xl:w-1/2 lg:w-[50%] w-full">
+          <img src="./../assets/about_us_Rectangle.svg" alt="rectangle"
+            class="absolute -z-10 rounded-br-[100px] top-0 left-0 lg:-translate-x-6 lg:-translate-y-10 xl:-translate-y-18 2xl:-translate-y-10 md:-translate-y-16 md:-translate-x-5 hidden md:block">
+          <h1
+            class="text-black text-center md:text-start text-[2rem] lg:text-[2rem] sm:text-[3rem] font-extrabold tracking-tight">
+            Great
+            Digital Product Agency since 2016</h1>
+          <P class="text-base text-center md:text-start text-neutral-600 lg:text-[1rem]">Our Business Plan is a written
+            document
+            describing a company's core business activites, Objectives, and how it plans to achieve its goals. Our goal is
+            to provide our client high quality Product with modern idea accordingly their budgets and according thir
+            reuirements.</P>
         </div>
       </div>
     </div>
