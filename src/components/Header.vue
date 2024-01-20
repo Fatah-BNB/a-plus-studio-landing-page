@@ -1,6 +1,6 @@
 <template>
   <div class="md:mx-[8%] md:my-11">
-    <header id="top-menu" class="flex flex-row justify-between">
+    <header id="top-menu" class="flex flex-row justify-between md:items-center">
       <div class="w-[10%] lg:w-[7%] md:w-[3%] flex flex-row md:justify-center md:py-0 py-5 md:px-0 px-10">
         <span style="font-family: nova;" class="lg:text-[1.5rem] md:text-[1.3rem] md:pr-1 text-[2rem]">A+</span><span
           class="lg:text-2xl md:text-xl md:pl-1 leading-normal md:leading-2 text-3xl">Studio</span>

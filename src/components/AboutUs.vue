@@ -4,11 +4,11 @@
             <div class="relative xl:w-1/2 lg:w-[65%]">
                 <img src="./../assets/about_us_img.png" alt="about-us-img" class="rounded-[32px] shadow-2xl h-[100%]">
                 <img src="./../assets/about_us_Ellipse.svg" alt="ellipse"
-                    class="absolute right-0 bottom-0 -z-10 lg:translate-y-10 lg:translate-x-10 hidden lg:block 2xl:-translate-x-20">
+                    class="absolute right-0 bottom-0 -z-10 lg:translate-y-10 lg:translate-x-10 hidden lg:block 2xl:-translate-x-0">
                 <img src="./../assets/play_button.svg" alt="play"
-                    class="absolute z-10 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] 2xl:-translate-x-[150%]">
+                    class="absolute z-10 top-[50%] left-[50%] -translate-x-[50%] -translate-y-[50%] 2xl:-translate-x-[50%]">
             </div>
-            <div id="about-us_content" class="relative flex flex-col 2xl:space-y-14 space-y-8 xl:w-1/2 lg:w-[50%] w-full">
+            <div id="about-us_content" class="relative flex flex-col 2xl:space-y-14 space-y-8 xl:w-1/2 lg:w-[50%] md:w-[70%]">
                 <img src="./../assets/about_us_Rectangle.svg" alt="rectangle"
                     class="absolute -z-10 rounded-br-[100px] top-0 left-0 lg:-translate-x-6 lg:-translate-y-10 xl:-translate-y-18 2xl:-translate-y-10 md:-translate-y-10 md:-translate-x-2 hidden md:block">
                 <h1

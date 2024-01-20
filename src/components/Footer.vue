@@ -11,35 +11,35 @@
                     applications, and elaborate online business services.</p>
             </div>
             <div id="what_we_do" class="flex flex-col gap-6">
-                <h3 class="font-bold md:text-[1.2rem] text-[1rem]">What we do</h3>
+                <h3 class="font-bold md:text-[1.2rem] text-[1rem] md:text-start text-center">What we do</h3>
                 <div class="flex flex-col gap-1">
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Web Design</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">App Design</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Social Media Manage</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Market Analysis Project</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">App Design</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Web Design</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Social Media Manage</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Market Analysis Project</p>
                 </div>
             </div>
             <div id="company" class="flex flex-col gap-6">
-                <h3 class="font-bold md:text-[1.2rem] text-[1rem]">Company</h3>
+                <h3 class="font-bold md:text-[1.2rem] text-[1rem] md:text-start text-center">Company</h3>
                 <div class="flex flex-col gap-1">
-                    <p class="md:text-[0.9rem] text-[0.8rem]">About Us</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Career</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Become Investor</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">About Us</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Career</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Become Investor</p>
                 </div>
             </div>
             <div id="support" class="flex flex-col gap-6">
-                <h3 class="font-bold md:text-[1.2rem] text-[1rem]">Support</h3>
+                <h3 class="font-bold md:text-[1.2rem] text-[1rem] md:text-start text-center">Support</h3>
                 <div class="flex flex-col gap-1">
-                    <p class="md:text-[0.9rem] text-[0.8rem]">FAQ</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Policy</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Business</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">FAQ</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Policy</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Business</p>
                 </div>
             </div>
             <div id="contact" class="flex flex-col gap-6">
-                <h3 class="font-bold md:text-[1.2rem] text-[1rem]">Contact</h3>
+                <h3 class="font-bold md:text-[1.2rem] text-[1rem] md:text-start text-center">Contact</h3>
                 <div class="flex flex-col gap-1">
-                    <p class="md:text-[0.9rem] text-[0.8rem]">WhatsApp</p>
-                    <p class="md:text-[0.9rem] text-[0.8rem]">Support 24</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">WhatsApp</p>
+                    <p class="md:text-[0.9rem] text-[0.8rem] md:text-start text-center">Support 24</p>
                 </div>
             </div>
         </div>

@@ -2,13 +2,21 @@
   <div class="home animate-fadeUp">
 
     <Header />
+
     <HeroHeadline />
+
     <OurClient />
+
     <Services />
+
     <AboutUs />
+
     <ClientsSection />
+
     <NewsLetter />
+
     <Footer />
+
   </div>
 </template>
 
